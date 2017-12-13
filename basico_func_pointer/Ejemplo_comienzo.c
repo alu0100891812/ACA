@@ -4,7 +4,7 @@
 #define nv 5000
 #define nc 22
 
-float* calculate(float *v_datos, float *v_coef){
+float* calculate(float * restrict v_datos, float * restrict v_coef){
 	float* sum = (float*)malloc(100*sizeof(float));
 	int i,j;
 	for(i=0;i<100;i++){
@@ -17,7 +17,7 @@ float* calculate(float *v_datos, float *v_coef){
 	return sum;
 }
 
-float calculateOne(float* datos, float *v_coef) {
+float calculateOne(float * restrict datos, float * restrict v_coef) {
 	float sum = 0;
 	int i=0;
 	for(i=0;i<nc;i++){
