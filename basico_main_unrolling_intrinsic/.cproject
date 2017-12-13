@@ -28,7 +28,7 @@
 								<listOptionValue builtIn="false" value="XDC_VERSION=3.25.3.72"/>
 								<listOptionValue builtIn="false" value="RTSC_PRODUCTS=com.ti.rtsc.SYSBIOS:6.35.4.50;"/>
 								<listOptionValue builtIn="false" value="OUTPUT_TYPE=rtscApplication:executable"/>
-								<listOptionValue builtIn="false" value="ADDITIONAL_FLAGS__COMPILER=-mg"/>
+								<listOptionValue builtIn="false" value="ADDITIONAL_FLAGS__COMPILER="/>
 							</option>
 							<option id="com.ti.ccstudio.buildDefinitions.core.OPT_CODEGEN_VERSION.944938683" name="Compiler version" superClass="com.ti.ccstudio.buildDefinitions.core.OPT_CODEGEN_VERSION" value="7.4.4" valueType="string"/>
 							<targetPlatform id="com.ti.ccstudio.buildDefinitions.C6000_7.4.exe.targetPlatformDebug.702605119" name="Platform" superClass="com.ti.ccstudio.buildDefinitions.C6000_7.4.exe.targetPlatformDebug"/>
@@ -45,6 +45,8 @@
 									<listOptionValue builtIn="false" value="&quot;${CG_TOOL_ROOT}/include&quot;"/>
 								</option>
 								<option id="com.ti.ccstudio.buildDefinitions.C6000_7.4.compilerID.ABI.324305492" name="Application binary interface (coffabi, eabi) [See 'General' page to edit] (--abi)" superClass="com.ti.ccstudio.buildDefinitions.C6000_7.4.compilerID.ABI" value="com.ti.ccstudio.buildDefinitions.C6000_7.4.compilerID.ABI.coffabi" valueType="enumerated"/>
+								<option id="com.ti.ccstudio.buildDefinitions.C6000_7.4.compilerID.OPT_LEVEL.807357443" name="Optimization level (--opt_level, -O)" superClass="com.ti.ccstudio.buildDefinitions.C6000_7.4.compilerID.OPT_LEVEL" value="com.ti.ccstudio.buildDefinitions.C6000_7.4.compilerID.OPT_LEVEL.3" valueType="enumerated"/>
+								<option id="com.ti.ccstudio.buildDefinitions.C6000_7.4.compilerID.PROGRAM_LEVEL_COMPILE.1299710455" superClass="com.ti.ccstudio.buildDefinitions.C6000_7.4.compilerID.PROGRAM_LEVEL_COMPILE" value="true" valueType="boolean"/>
 								<inputType id="com.ti.ccstudio.buildDefinitions.C6000_7.4.compiler.inputType__C_SRCS.1344805335" name="C Sources" superClass="com.ti.ccstudio.buildDefinitions.C6000_7.4.compiler.inputType__C_SRCS"/>
 								<inputType id="com.ti.ccstudio.buildDefinitions.C6000_7.4.compiler.inputType__CPP_SRCS.890669737" name="C++ Sources" superClass="com.ti.ccstudio.buildDefinitions.C6000_7.4.compiler.inputType__CPP_SRCS"/>
 								<inputType id="com.ti.ccstudio.buildDefinitions.C6000_7.4.compiler.inputType__ASM_SRCS.2115291321" name="Assembly Sources" superClass="com.ti.ccstudio.buildDefinitions.C6000_7.4.compiler.inputType__ASM_SRCS"/>

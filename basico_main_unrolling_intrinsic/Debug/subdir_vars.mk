@@ -9,12 +9,6 @@ CFG_SRCS += \
 C_SRCS += \
 ../Ejemplo_comienzo.c 
 
-OBJS += \
-./Ejemplo_comienzo.obj 
-
-C_DEPS += \
-./Ejemplo_comienzo.pp 
-
 GEN_MISC_DIRS += \
 ./configPkg/ 
 
@@ -34,12 +28,6 @@ GEN_FILES__QUOTED += \
 
 GEN_MISC_DIRS__QUOTED += \
 "configPkg\" 
-
-C_DEPS__QUOTED += \
-"Ejemplo_comienzo.pp" 
-
-OBJS__QUOTED += \
-"Ejemplo_comienzo.obj" 
 
 C_SRCS__QUOTED += \
 "../Ejemplo_comienzo.c" 

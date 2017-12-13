@@ -6,6 +6,9 @@
 
 void main()
 { 
+	#pragma DATA_MEM_BANK (v_datos,0);
+	#pragma DATA_MEM_BANK (v_sum,4);
+	#pragma DATA_MEM_BANK (v_coef,2);
 	float v_datos [100];
 	float v_sum [100];
 	float v_coef [nc];
