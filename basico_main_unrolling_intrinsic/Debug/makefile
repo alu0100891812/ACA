@@ -121,13 +121,13 @@ all: basico_main_unrolling_intrinsic.out
 basico_main_unrolling_intrinsic.out: $(OBJS) $(GEN_CMDS)
 	@echo 'Building target: $@'
 	@echo 'Invoking: C6000 Linker'
-	"C:/ti/ccsv5/tools/compiler/c6000_7.4.4/bin/cl6x" -mv64+ --abi=coffabi -O3 -g --program_level_compile --display_error_number --diag_warning=225 --diag_wrap=off -z -m"basico_main_unrolling_intrinsic.map" -i"C:/ti/ccsv5/tools/compiler/c6000_7.4.4/lib" -i"C:/ti/ccsv5/tools/compiler/c6000_7.4.4/include" --reread_libs --warn_sections --display_error_number --diag_wrap=off --xml_link_info="basico_main_unrolling_intrinsic_linkInfo.xml" --rom_model -o "basico_main_unrolling_intrinsic.out" $(ORDERED_OBJS)
+	"C:/ti/ccsv5/tools/compiler/c6000_7.4.4/bin/cl6x" -mv64+ --abi=coffabi -O1 -g --program_level_compile --display_error_number --diag_warning=225 --diag_wrap=off -z -m"basico_main_unrolling_intrinsic.map" -i"C:/ti/ccsv5/tools/compiler/c6000_7.4.4/lib" -i"C:/ti/ccsv5/tools/compiler/c6000_7.4.4/include" --reread_libs --warn_sections --display_error_number --diag_wrap=off --xml_link_info="basico_main_unrolling_intrinsic_linkInfo.xml" --rom_model -o "basico_main_unrolling_intrinsic.out" $(ORDERED_OBJS)
 	@echo 'Finished building target: $@'
 	@echo ' '
 
 Ejemplo_comienzo.obj: $(C_SRCS) $(GEN_OPTS) $(GEN_HDRS)
 	@echo 'Invoking: C6000 Compiler'
-	"C:/ti/ccsv5/tools/compiler/c6000_7.4.4/bin/cl6x" -mv64+ --abi=coffabi -O3 -g --include_path="C:/ti/ccsv5/tools/compiler/c6000_7.4.4/include" --program_level_compile --display_error_number --diag_warning=225 --diag_wrap=off $(GEN_OPTS__FLAG) $(C_SRCS__QUOTED) $(S??_SRCS__QUOTED)
+	"C:/ti/ccsv5/tools/compiler/c6000_7.4.4/bin/cl6x" -mv64+ --abi=coffabi -O1 -g --include_path="C:/ti/ccsv5/tools/compiler/c6000_7.4.4/include" --program_level_compile --display_error_number --diag_warning=225 --diag_wrap=off $(GEN_OPTS__FLAG) $(C_SRCS__QUOTED) $(S??_SRCS__QUOTED)
 	@echo 'Finished building: $@'
 	@echo ' '
 
